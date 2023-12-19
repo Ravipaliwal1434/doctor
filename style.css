@@ -1,0 +1,816 @@
+   header{ 
+	
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.padding-50-50{
+		padding:50px 0;
+}
+
+nav .nav-link{
+	margin-right:15px;
+	    font-size: 15px;
+    font-weight: 600;
+}
+.hero-section{
+    background-color: #d3d3d3a6;
+	 background-image: url(img/famliy.png);
+	  width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    position: relative;
+	overflow:hidden;
+}
+.discover{
+	    position: absolute;
+    top: 18%;
+}
+.discover h1{
+	color:#2e3749;
+}
+
+.discover h5{
+	    font-size: 12px;
+    font-weight: 650;
+	    padding: 7px 10px;
+    background-color: #fff;
+	    display: inline-block;
+    border-radius: 50px;
+	
+}
+
+.discover p{
+	    color: #a2a0a0;
+		
+    font-weight: 600;
+    color: #4e3e3e;
+}
+
+.cta {
+ position: relative;
+ margin: auto;
+ padding: 7px 18px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+.cta:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #b1dae7;
+ width: 45px;
+ height: 45px;
+ transition: all 0.3s ease;
+}
+
+.cta span {
+ position: relative;
+
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+.cta svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+ width: 100%;
+ background: #b1dae7;
+}
+
+.cta:hover svg {
+ transform: translateX(0);
+}
+
+.cta:active {
+ transform: scale(0.95);
+}
+.slider{
+	margin:50px 0px 70px;
+}
+.img-box{
+    width:150px;
+}
+.slider-1 h5{
+	    text-align: center;
+		 margin-bottom: 30px;
+}
+
+/* our-benefits sectione start */
+.my-slider .img-box{
+	margin:auto;
+}
+.our-benefits{
+	  background-color: #d3d3d3a6;
+	  padding:55px 0px;
+}
+.health {
+	background-color:#ffff;
+	    text-align: center;
+		    padding: 30px 24px;
+			margin-top:20px;
+			border-radius:10px;
+			transition:0.5s;
+}
+
+
+.health p{
+	    font-size: 12px;
+    font-weight: 700;
+	
+}
+.logo-1 i{
+	    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background: #e1f8e5;
+}
+.logo-2 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#daf6ff;
+}
+.logo-3 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#e3ddfd;
+}
+.logo-4 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#ffe9cf;
+}
+.logo-5 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#ffdaec;
+}
+.logo-6 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#fff0e4;
+}
+.your-teams{
+	font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+}
+.your-team h2{
+	     font-size: 47px;
+	    font-family: initial;
+    font-weight: 700;
+	color:#2e3749;
+}
+.your-team{
+	margin-top:35px;
+	margin-left:35px
+	;
+	line-height: 30px;
+	
+}
+
+/* our-benefits sectione end */
+
+
+.provides-help{
+	background-color:#68c3e0;
+	padding:70px 0 0 0px;
+}
+
+.provides-help h6{
+	color:#ffff;
+	font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color:#21596d;
+    display: inline-block;
+    border-radius: 50px;
+}
+.focus{
+	 margin-left: 35px;
+}
+
+.focus img{
+	width:100%;
+}
+.focus p{
+	font-size: 35px;
+    font-family: math;
+    font-weight: 600;
+}
+.advice{
+	background-color:#d3d3d3a6;
+	border-radius: 10px 0 0 10px;
+	height:90%;
+}
+
+.ad-ddd{
+	padding:40px 0 0 35px;
+}
+
+.advice h3{
+ font-size: 35px;
+    font-family: math;
+    font-weight: 600;	
+}
+.advice-2{
+	text-align: center;
+	    padding: 20px 25px
+}
+
+.advice-2 i{
+
+	  width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#ffff;
+	 margin-bottom: 10px;
+}
+
+.advice-2 h4{
+font-size:14px;
+font-weight:600;
+}
+
+
+/* health-insurence sectione */
+
+.health-insurance{
+	    background-color: #d3d3d3a6;
+		padding:60px 0px 60px 0px;
+}
+.medical{
+	text-align:center;
+}
+
+.health-insurance h5{ 
+    font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+}
+.fixed{
+	position:relative;
+	background-color:#ffff;
+	z-index:2;
+      border-radius: 10px;
+	      padding: 25px 30px 25px 35px;
+		  margin-top:30px;
+		  transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+.fixed:after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+	z-index:-1;
+	border-radius: 10px;
+    background-image: linear-gradient( 90.2deg,  rgba(79,255,255,1) 0.3%, rgba(0,213,255,1) 99.8% );
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.fixed:hover:after{
+	 opacity: 1;
+	 border-radius: 10px;
+}
+.fixed i{
+	font-size:25px;
+	    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background:#d3d3d3a6;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.fixed h6{
+	color:black;
+	    font-size: 20px;
+    font-weight: 600;
+    font-family: emoji;
+}
+.fixed p{
+	    color: #2e3749;
+		margin-top:10px;
+}
+
+.plan{
+	    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.plan button {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.plan button::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.plan button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+ 
+  transition: 0.5s;
+}
+
+.plan button:hover::before,.plan button:hover::after {
+  transform: scale(0)
+}
+
+.plan button:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+
+
+
+.how-work{
+	    background-color: #d3d3d361;
+}
+.it-was{
+	text-align:center;
+}
+.it-was h6{
+	font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+	    margin-bottom: 10px;
+}
+.it-was h3{
+	font-family: fangsong;
+    font-weight: 600;
+}
+.work i{
+	    font-size: 25px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background: #ffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.work{
+	    padding: 25px 20px 5px 25px;
+		text-align:center;
+}
+.was h5{
+	    font-family: serif;
+    font-weight: 600;
+	    line-height: 25px;
+}
+
+
+
+
+
+
+.testmonial{
+	padding:60px 0px 60px 0px;
+}
+.test-2{
+	text-align:center;
+	padding:30px 0px 30px 0px;
+}
+
+.test-2 i{
+	color:#fcb040;
+}
+.monial{
+	text-align:center;
+}
+.monial h5{
+	    font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color: #d3d3d3a6;
+    display: inline-block;
+    border-radius: 50px;
+}
+.monial h3{
+	    font-family: serif;
+    font-weight: 600;
+	margin-top:10px;
+}
+
+.my-slider-2 .img-box{
+	width:100%;
+}
+.my-slider-2 .test-2 img{
+	width:7%;
+	margin:auto;
+	   border-radius: 50%;
+	  
+}
+
+
+
+
+
+
+.form-section{
+	    background-color: #d3d3d3a6;
+		    padding: 50px 0px 50px 0px
+}
+.subscribe{
+	text-align:center;
+	padding:50px 0px 50px 0px;
+	background-color:#0b3948;
+	border-radius:10px;
+}
+.input{
+	display:inline-block;
+}
+.subscribe h5{
+	color: azure;
+    font-family: initial;
+    font-size: 28px;
+}
+.subscribe p{
+	    color: aqua;
+    font-size: 15px;
+}
+.input input{
+	    padding: 8px 44px 8px 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff6;
+	    font-weight: 600;
+		margin-right:10px;
+}
+
+.cta-2 {
+ position: relative;
+ margin: auto;
+ padding: 12px 18px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+.cta-2:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #ffd470;
+ width: 45px;
+ height: 45px;
+ transition: all 0.3s ease;
+}
+
+.cta-2 span {
+ position: relative;
+
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+.cta-2 svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta-2:hover:before {
+ width: 100%;
+ background: #ffd470;
+}
+
+.cta-2:hover svg {
+ transform: translateX(0);
+}
+
+.cta-2:active {
+ transform: scale(0.95);
+}
+
+
+
+
+
+
+.insurance-blog{
+    background-image: url(img/man-wall.jpg);
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+	    background-color: #d3d3d3a6;
+}
+.insurance-blog .owl-theme .owl-nav.disabled + .owl-dots {
+margin-top: -20px;
+}
+.blog-1{
+	text-align:center;
+	margin-bottom:30px;
+}
+.blog-1 h6{
+	    font-size: 12px;
+    font-weight: 650;
+    padding: 7px 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+}
+.blog-1 i{
+	font-size:15px;
+}
+
+.loream-1 img{
+    max-width: 100%;
+    transition: 0.8s;
+}
+
+ .loream-1 {
+    overflow: hidden;
+} 
+
+.loream-1:hover img{
+    transform: scale(1.1);
+}
+
+
+.loream-2 p {
+    color: black;
+    font-size: 16px;
+    line-height: 28px;
+	font-weight: 600;
+}
+
+
+.Clients{
+    position: relative;
+}
+
+.loream-2{
+    padding: 25px 22px 30px;
+    background-color: #fff;
+    position: relative;
+    width: 90%;
+    top: -60px;
+    margin: auto;
+}
+.celender{
+	margin:auto;
+	    margin-top: 20px;
+		    margin-right: 7px;
+}
+.smoall-man{
+	display:flex;
+}
+.smoall-man p{
+	display:inline-block;
+}
+.cta-3 {
+ position: relative;
+ margin: auto;
+ padding: 12px 18px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+.cta-3:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #68c3e0;
+ margin-top:6px;
+ width: 40px;
+ height: 40px;
+ transition: all 0.3s ease;
+}
+
+.cta-3 span {
+ position: relative;
+
+ font-size: 13px;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+.cta-3 svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta-3:hover:before {
+ width: 100%;
+ background: #68c3e0;
+}
+
+.cta-3:hover svg {
+ transform: translateX(0);
+}
+
+.cta-3:active {
+ transform: scale(0.95);
+}
+
+
+
+
+
+
+.footer-section {
+background: #04242b;
+padding:50px 0px 30px 0px;
+}
+.information h6{
+	color:#ffff;
+}
+.information ul{
+	    padding-top: 10px;
+}
+.information ul li{
+	color:#ffffffb3;
+	line-height: 40px;
+	transition:0.5s;
+}
+.information i{
+	color:#ffd470;
+	    margin-right: 5px;
+}
+.information ul li:hover{
+	color:#68c3e0;
+	margin-left:10px;
+	
+}
+.icons i{
+color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+	
+}
+
+
+.bottom-fotter{
+    border-top: 1px solid #eeeeee40;
+    margin-top: 25px;
+	    display: flex;
+    justify-content: space-between;
+}
+.bottom-fotter p , .bottom-fotter h6{
+	color:#ffff;
+	margin-top:15px;
+	font-size:14px;
+}
+
+@media screen and (max-width:767px){
+    .advice{
+        height: 95%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .cta{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:425px){
+	 .cta{
+		    margin-top: 20px;
+	} 
+	.hero-section{
+		background-image:none;
+	}
+    .cta-3 {
+        padding: 10px 10px;
+    }
+    .cta-3 span{
+        font-size: 10px;
+    }
+    .loream-2 p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .cta-2{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+	.hero-section{
+		background-image:none;
+	}
+	.cta{
+		    margin-top: 30px;
+	}
+	.slider-1 h5{
+		font-size:18px;
+	}
+	
+	
+	.your-team h2{
+		font-size:32px;
+	}
+}
+
+

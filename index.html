@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+   
+     <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  
+	<link rel="stylesheet" href="style.css">
+	<style>
+	.preloder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #000;
+}
+.preloder .loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    animation: a 1.7s linear infinite;
+    z-index: 10;
+}
+.preloder .loader,
+.preloder .loader:after,
+.preloder .loader:before {
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: green;
+}
+.preloder .loader:after,
+.preloder .loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.preloder .loader:before {
+    animation: a 1.8s linear infinite;
+}
+.preloder .loader:after {
+    animation: a 1s linear infinite;
+}
+@keyframes a {
+    0% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+	</style>
+</head>
+
+<body>
+<div class="preloder"  id="preloder" ><div class="loader"></div></div>
+		   <header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			  <div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="img/.png" alt="my-logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+					  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+					</li>
+					
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						 INSURANCE
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
+					  </ul>
+					</li>
+					<li class="nav-item dropdown">
+					   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						 PAGE
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">page-1</a></li>
+						<li><a class="dropdown-item" href="#">page-2</a></li>
+						<li><a class="dropdown-item" href="#">page-3</a></li>
+						<li><a class="dropdown-item" href="#">page-4</a></li>
+					  </ul>
+					</li>
+					 <li class="nav-item dropdown">
+					   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						 BLOGE
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">BLOGE-1</a></li>
+						<li><a class="dropdown-item" href="#">BLOGE-2</a></li>
+						<li><a class="dropdown-item" href="#">BLOGE-3</a></li>
+						<li><a class="dropdown-item" href="#">BLOGE-4</a></li>
+						
+					  </ul>
+					</li>
+					 <li class="nav-item">
+					  <a class="nav-link">CONTANT</a>
+					</li>
+					 <li class="nav-item">
+					  <a class="nav-link"> <i class="fa-solid fa-magnifying-glass"></i></a>
+					</li>
+					 <form class="d-flex" role="search">
+					<button class="btn btn-outline-success" type="submit">Get In Touch</button>
+				  </form>
+				  </ul>
+				 
+				</div>
+			  </div>
+			</nav>
+			  </header>
+	
+				<section class="hero-section">
+				  <div class="container">
+					<div class="row">
+					 <div class="discover">
+						 <h5><i class="fa-solid fa-heart-pulse"></i> LIFE YOUR DREAM</h5>
+						 <h1>Discover<br> Heaithcare That<br> Employees Love</h1>
+						 <p>Healthier employees sgowcase increased productivity with<br> our benefits that your team. </p>
+						 
+						   <button class="cta">
+							  <span>View Insurance plan</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+
+							<button class="cta">
+							  <span>Schedule Call</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+					 
+					 </div>
+					
+					</div>
+					</div>
+				
+				</section>
+				
+				
+				
+ <section class="slider">
+        <div class="slider-1">
+            <h5>More That A 300+ companies Have Moveed To Instive</h5>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-slider owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="img/avenger.jpg" alt="my-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+			<section class="our-benefits">
+				<div class="container">
+				 <div class="row">
+				 <div class="col-md-6">
+				 <div class="row">
+					 <div class="col-md-4">
+					    <div class="health">
+						   <div class="logo-1"><i class="fa-solid fa-briefcase-medical"></i></div>
+						
+						 <p>Group Medical Cover</p>
+						
+						</div>
+					</div>
+					
+					 <div class="col-md-4">
+					 <div class="health">
+					     <div class="logo-2"> <i class="fa-solid fa-tooth"></i></div>
+					     <p>Dental<br> Chelups</p>
+					
+						
+						</div>
+					</div>
+					
+					 <div class="col-md-4">
+					 <div class="health">
+					   
+					      <div class="logo-3"> <i class="fa-solid fa-cloud"></i></i></div>
+					     <p>Discounted Medicians</p>
+					   
+						</div>
+					</div>
+					
+					 <div class="col-md-4">
+					 <div class="health">
+					   <diV class="logo-4"><i class="fa-solid fa-shield"></i></div>
+						   <p>Mental Wellness Consultations</p>
+						
+						
+						</div>
+					</div>
+					
+						 <div class="col-md-4">
+						 <div class="health">
+						   
+						      <diV class="logo-5"><i class="fa-solid fa-virus-covid"></i></div>
+						    <p>Covid-19<br> Coverage</p>
+						
+						
+						</div>
+					</div>
+					
+					 <div class="col-md-4">
+					 <div class="health">
+					       <diV class="logo-6"> <i class="fa-solid fa-user-group"></i></div>
+					    
+						   <p>Group Medical Cover</p>
+						
+						
+						</div>
+					</div>
+					 
+					 </div>
+				
+				</div>
+				
+				<div class="col-md-6">
+				 <div class="your-team">
+				  <h5 class="your-teams"><i class="fa-solid fa-heart-pulse"></i> OUR BENEFITS<h5>
+				   <h2>Health benefits Simplified</h2>
+				   <p>Your teams want health insurance that comes was<br> surprises,no hideen costs& no out-of pocket exprence<br> Give access to great care with Instive.</p>
+				   
+				    <button class="cta">
+							  <span>View Our Benefits</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+				 </div>
+				
+				
+				</div>
+				
+				</div>
+				</div>
+						
+						
+		</section>
+		
+		
+		
+		<section class="provides-help">
+				<div class="container-fluid">
+				 <div class="row">
+				 <div class="col-md-5">
+				   <div class="focus">
+				     <h6><i class="fa-regular fa-circle-question"></i> WHY DO I NEED</h6>
+					  <p>Focus On Your<br> Employees Health</p>
+					    <img src="img/2433957.png" alt="my-img">
+				 
+
+                   </div>
+
+                   </div>
+						 <div class=" col-md-7">
+						   <div class="advice">
+						    <div class="ad-ddd">
+						     <h3>Advice You Can Count On</h3>
+							 <p>A medical insurance plan is extremely important since it provides<br> full coverage against even-increasing healthcare expenses.</p>
+							 </div>
+							 <div class="row">
+							    <div class="col-lg-4 col-md-6 col-sm-12">
+							   <div class="advice-2">
+							   <i class="fa-solid fa-house-chimney-user"></i>
+							   <h4>Beat Medical<br> Inflation</h4>
+							   </div>
+							 </div>
+							 
+							   <div class="col-lg-4 col-md-6 col-sm-12">
+							      <div class="advice-2">
+							     <i class="fa-solid fa-hand-holding-medical"></i>
+								  <h4>Beat Quality<br> Healthcare</h4>
+							  
+							      </div>
+							 </div>
+							 
+							   <div class="col-lg-4 col-md-6 col-sm-12">
+							      <div class="advice-2">
+							     <i class="fa-solid fa-briefcase-medical"></i>
+								  <h4>Get Access To<br> Specialised</h4>
+							  
+							      </div>
+							 </div>
+							 
+							   <div class="col-lg-4 col-md-6 col-sm-12">
+							      <div class="advice-2">
+							     <i class="fa-solid fa-house-circle-check"></i>
+								  <h4>Avail Cashless<br> Hospitalization</h4>
+							      </div>
+							 </div>
+							 
+							 <div class="col-lg-4 col-md-6 col-sm-12">
+							    <div class="advice-2">
+							   <i class="fa-solid fa-file-invoice-dollar"></i>
+							    <h4>30% Save Tax</h4>
+							  
+							    </div>
+							 </div>
+							 
+							   <div class="col-lg-4 col-md-6 col-sm-12">
+							      <div class="advice-2">
+							     <i class="fa-solid fa-clipboard-list"></i>
+								  <h4>Preventive health<br> Check-Up<br> Coupons</h4>
+							  
+							      </div>
+							 </div>
+							  
+							  
+							 </div>
+							  <button class="cta">
+							  <span>View Our Benefits</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+
+                        
+						  
+                         </div>
+                        </div>
+                    </div>
+                </div>
+         </section>
+		 
+		 
+		 <section class="health-insurance">
+		     <div class="medical">
+			  <h5> <i class="fa-solid fa-business-time"></i> OUR PLANS</h5>
+			 <h3>Best Health Insurance Plans</h3>
+			 </div>
+		  <div class="container">
+				 <div class="row">
+				  <div class="col-md-4">
+				     <div class="fixed">
+					  <i class="fa-solid fa-briefcase-medical"></i>
+					  <h6>Indemnity Health<br>Insurance</h6>
+					  <p>This type of insurance<br>plans your actual medical expense<br>both a reimbursement basis.</P>
+					 
+					 </div>
+				  
+		             </div>
+					  <div class="col-md-4">
+				     <div class="fixed">
+					 <i class="fa-solid fa-business-time"></i>
+					   <h6>TOP-UP Health<br>Insurance Plans</h6>
+					  <p>This type of insurance<br>plans your actual medical expense<br>both a reimbursement basis.</P>
+					 
+					 </div>
+				  
+		             </div>
+					  <div class="col-md-4">
+				     <div class="fixed">
+					 <i class="fa-solid fa-file-circle-check"></i>
+					   <h6>Fixed Benefit Health<br>Insurance plans</h6>
+					  <p>This type of insurance<br>plans your actual medical expense<br>both a reimbursement basis.</P>
+					 
+					 </div>
+				  
+		             </div>
+					  
+		         </div>
+						 <div class="plan">
+						  <button>
+								View Our Plan
+							</button>
+				  </div>
+		 </div>
+		 
+		  </section>
+		  
+		  
+		     <section class="how-work padding-50-50">
+			    
+				<div class="container">
+				 <div class="it-was">
+				 <h6><i class="fa-solid fa-circle-question"></i> INSURANCE SIMPLIFIED</h6>
+				 <h3>How It Work</h3>
+				</div>
+				 <div class="row">
+				 <div class="col-lg-4 col-md-6 col-sm-12">
+				    <div class="work">
+					 <i class="fa-solid fa-user-check"></i>
+					 <h5>Compare<br>Personalized quotes</h5>
+					 <p>Answercc A couple of questions, W'll provide accurate live quotes.</p>
+					
+				       </div>
+					   
+				       </div>
+					   <div class="col-lg-4 col-md-6 col-sm-12">
+				    <div class="work">
+					<i class="fa-solid fa-book"></i>
+					 <h5>Get all discounts in<br>one place</h5>
+					 <p>Answercc A couple of questions, W'll provide accurate live quotes.</p>
+					
+				       </div>
+					   
+				       </div>
+					   <div class="col-lg-4 col-md-6 col-sm-12">
+				    <div class="work">
+					 <i class="fa-solid fa-mobile"></i>
+					 <h5>buy online or on<br>the phone</h5>
+					 <p>Answercc A couple of questions, W'll provide accurate live quotes.</p>
+					
+				       </div>
+					   
+				       </div>
+					   
+				     </div>
+					 
+				  </div> 
+				  
+			 </section>
+			 
+			 
+			 <section class="testmonial">
+				<div class="container">
+				  <div class="monial">
+				    <h5><i class="fa-solid fa-vial-virus"></i> TESTMONIAL</h5>
+				  <h3>Real People, Real Reviews</h3>
+				  </div>
+				 <div class="row">
+				 <div class="col-md-12">
+                  <div class="my-slider-2 owl-carousel owl-theme">
+					
+							<div class="item">
+						  <div class="img-box">
+						  
+						 <div class="test-2">
+						 
+						  <img src="img/doctor-2.png" alt="my-img">
+							 <h5>Sonam Srivastava</h5>
+							 <h6>Research Wright</h6>
+							  
+							 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+							 <p>I heard about plum through a linkdln post and rest as they say is history. I goenka and I must tell you, he<br> and the extended teams been to work with. They ensured that thebest optimal medical coverage options.</p>
+						 </div>
+							  
+						 </div>
+						  </div>
+								
+						   <div class="item">
+							<div class="img-box">
+						   
+					
+						 <div class="test-2">
+						  <img src="img/doctor-2.png" alt="my-img">
+							 <h5>Sonam Srivastava</h5>
+							 <h6>Research Wright</h6>
+							  
+							 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+							 <p>I heard about plum through a linkdln post and rest as they say is history. I goenka and I must tell you, he<br> and the extended teams been to work with. They ensured that thebest optimal medical coverage options.</p>
+						 </div>
+							  
+			
+						 </div>
+						  </div>
+								
+						  <div class="item">
+							<div class="img-box">
+						 <div class="test-2">
+						  <img src="img/doctor-2.png" alt="my-img">
+							 <h5>Sonam Srivastava</h5>
+							 <h6>Research Wright</h6>
+							  
+							 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+							 <p>I heard about plum through a linkdln post and rest as they say is history. I goenka and I must tell you, he<br> and the extended teams been to work with. They ensured that thebest optimal medical coverage options.</p>
+						 </div>
+							 
+						 </div>
+						 </div>
+								
+					  <div class="item">
+						 <div class="img-box">
+						 <div class="test-2">
+						  <img src="img/doctor-2.png" alt="my-img">
+							 <h5>Sonam Srivastava</h5>
+							 <h6>Research Wright</h6>
+							  
+							 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+							 <p>I heard about plum through a linkdln post and rest as they say is history. I goenka and I must tell you, he<br> and the extended teams been to work with. They ensured that thebest optimal medical coverage options.</p>
+						 </div>
+			
+						 </div>
+                      </div>
+                       
+                       
+                </div>
+				 
+                 </div>
+				
+		         </div>
+		         </div>
+				
+	       </section>
+				
+			
+			 
+		      <section class="form-section">
+					<div class="container">
+					 <div class="row">
+					       <div class="subscribe">
+						    <h5>Subscribe To People first<br>Dispatch</h5>
+							<p>A wekly of latest news, articles and resources</p>
+						    <div class="enter">
+							 <div class="input">
+							    <input type="text" placeholder="Enter email">
+							 </div>
+							 <button class="cta-2">
+							  <span>Subscribe</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+
+							</div>
+		           
+			                 </div>
+                       </div>
+			       </div>
+			   </section>
+			   
+			   
+	 <section class="insurance-blog">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="serving">
+                       <div class="blog-1">
+					     <h6><i class="fa-regular fa-newspaper"></i> OUR NEWS</h6>
+                    <h2>Letest Health Insurance  Blogs<h2/>
+					   </div>
+                    
+                    <div class="my-slider-3 owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="img-box1">
+                                <div class="Clients">
+                                    <div class="loream-1">
+                                        <img src="img/health-1.webp" alt="">
+                                    </div>
+                                    <div class="loream-2">
+                                        <p>Ambulance COVERS OF FIRE<br> on INSURANCE Serving </p>
+                                        <div class="smoall-man">
+										<div class="celender"><i class="fa-solid fa-calendar-days"></i>  <p>june 28-6-2023</p></div>
+										 <button class="cta-3">
+							  <span>View Details</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box1">
+                                <div class="Clients">
+                                    <div class="loream-1">
+                                        <img src="img/health-2.jpg" alt="">
+                                    </div>
+                                    <div class="loream-2">
+                                        <p>Ieving the interests of our clients<br> able to add on </p>
+                                        <div class="smoall-man">
+                                            <div class="celender"><i class="fa-solid fa-calendar-days"></i>  <p>june 28-6-2023</p></div>
+											   <button class="cta-3">
+							  <span>View Details</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box1">
+                                <div class="Clients">
+                                    <div class="loream-1">
+                                        <img src="img/health-3.webp" alt="">
+                                    </div>
+                                    <div class="loream-2">
+                                        <p>Five Things All HRs<br> ThinkDiversity & Inclusion </p>
+                                        <div class="smoall-man">
+                                            <div class="celender"><i class="fa-solid fa-calendar-days"></i>  <p>june 28-6-2023</p></div>
+											 <button class="cta-3">
+							  <span>View Details</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box1">
+                                <div class="Clients">
+                                    <div class="loream-1">
+                                        <img src="img/health-2.jpg" alt="">
+                                    </div>
+                                    <div class="loream-2">
+                                        <p>Ieving the interests of our clients<br> able to add on </p>
+                                        <div class="smoall-man">
+                                            <div class="celender"><i class="fa-solid fa-calendar-days"></i>  <p>june 28-6-2023</p></div>
+											 <button class="cta-3">
+							  <span>View Details</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box1">
+                                <div class="Clients">
+                                    <div class="loream-1">
+                                        <img src="img/health-2.jpg" alt="">
+                                    </div>
+                                    <div class="loream-2">
+                                        <p>Ieving the interests of our clients<br> able to add on </p>
+                                        <div class="smoall-man">
+                                            <div class="celender"><i class="fa-solid fa-calendar-days"></i>  <p>june 28-6-2023</p></div>
+											 <button class="cta-3">
+							  <span>View Details</span>
+							  <svg viewBox="0 0 13 10" height="10px" width="15px">
+								<path d="M1,5 L11,5"></path>
+								<polyline points="8 1 12 5 8 9"></polyline>
+							  </svg>
+							</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	<section class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+				    <div class="information">
+					    <h6>Information</h6>
+				        <ul>
+							<li>Home</li>
+							<li>About</li>
+							<li>Insurance</li>
+							<li>Insurance Overview</li>
+					    </ul>
+                    </div>
+				</div>	
+			    <div class="col-md-3">
+				    <div class="information">
+						<h6>Our Insurance</h6>
+						<ul>
+							<li>super Top-Ups</li>
+							<li>Group health insurance</li>
+							<li>Insurance Overview</li>
+						</ul>
+	                </div>					  
+	            </div>
+				<div class="col-md-3">
+				    <div class="information">
+						<h6>Our plan</h6>
+						<ul>
+								<li>potime secure</li>
+								<li>ptima restore</li>
+								<li>critical IIIness insurance </li>
+								<li>iCan cancer insurance</li>
+						</ul>					
+	                </div>				  
+	            </div>
+				<div class="col-md-3">
+				    <div class="information">
+						<h6>Contact Us</h6>
+						<ul>
+							<li><i class="fa-solid fa-phone-volume"></i> +229834565345</li>
+							<li><i class="fa-solid fa-phone-volume"></i> info@instive.com</li>
+							<li><i class="fa-solid fa-location-dot"></i> 50 west 23rd street Floor 9 new yorl,ny 10010</li>					
+						</ul>
+                     		<p>Follw Us</p>
+							<div class="icons">
+							<a class="dropdown-item" href="#">BLOGE-1</a>
+							 <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-invision"></i>
+							</div>		
+	                </div>					  
+	            </div>
+				<div class="bottom-fotter">
+		 <p><i class="fa-regular fa-copyright"></i> Instive,2023.All Rights Reserved.</p>
+		 <h6>.Privacy .Terms of service .legal</h6>
+		</div>
+				
+			</div>
+        </div>
+		
+    </section>
+	
+	<a href="#" data-target="html"  class="goToTop" id="goToTop" style="padding:10px; background:black;width:50px;height:50px;color:white;position:fixed;right:10px;bottom:10px;text-align:center;font-size:24px;display:flex;justify-content:center;align-items:center"><i class="fa-brands fa-facebook"></i> </a>
+	
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+
+    <script>
+        $('.my-slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:false,
+            smartSpeed:1200,
+    
+    autoplayHoverPause:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+	    <script>
+        $('.my-slider-2').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:false,
+            smartSpeed:1200,
+    
+    autoplayHoverPause:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    </script>
+	 <script>
+        $('.my-slider-3').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:false,
+            smartSpeed:1200,
+    
+    autoplayHoverPause:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+	
+	<script>
+	 if ($(".goToTop").length) {
+    $(".goToTop").on("click", function (e) {
+      e.preventDefault();
+      var target = $(this).attr("data-target");
+      // animate
+      $("html, body").animate({
+          scrollTop: $(target).offset().top,
+        },
+        1000
+      );
+    });
+  }
+  
+  $(window).on("scroll", function () {
+    
+    if ($(".goToTop").length) {
+      var strickyScrollPos = 100;
+      if ($(window).scrollTop() > strickyScrollPos) {
+        $(".goToTop").fadeIn(500);
+      } else if ($(this).scrollTop() <= strickyScrollPos) {
+        $(".goToTop").fadeOut(500);
+      }
+    }
+  });
+
+$(window).on('load', function () {
+	$('#preloder').fadeOut();
+	
+});
+	</script>
+</body>
+
+</html>
